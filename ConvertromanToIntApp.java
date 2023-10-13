@@ -1,0 +1,17 @@
+package com.convertromantoint.convert;
+
+import java.util.Scanner;
+
+public class ConvertromanToIntApp {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		String str=sc.next();
+		System.out.println(ConvertRomanToInt.romanToInteger(str));
+
+	}
+
+
+}
+
+
